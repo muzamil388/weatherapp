@@ -1,6 +1,6 @@
 function getWeather() {
     var city = document.getElementById('cityInput').value;
-    var apiKey = 'jX1g7dHVx11JYQG3JnuLeGQ7GfxrVbHq'; // Replace 'your_accuweather_api_key' with your actual AccuWeather API key
+    var apiKey = 'jX1g7dHVx11JYQG3JnuLeGQ7GfxrVbHq'; 
     var locationUrl = `http://dataservice.accuweather.com/locations/v1/cities/search=${apiKey}&q=${city}`;
 
     var xhr = new XMLHttpRequest();
